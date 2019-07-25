@@ -20,14 +20,6 @@ html{
 }
 
 
-/*slider css */
-
-
-
-
-
-
-
 
 
 
@@ -81,7 +73,7 @@ html{
 
 .logo-branding
 {
-    width: 100%;
+   
     text-align: center;
 }
 
@@ -94,7 +86,7 @@ html{
 
 .logo-text
 {
-    width: 100%;
+   width:100%;
     text-align: center;
     display: inline-block;
     vertical-align: middle;
@@ -127,7 +119,7 @@ html{
     font-weight: 300;
     line-height: 15px;
     margin: 0 0 0 8px;
-    letter-spacing: 1px;
+   
 }
 .call-us{
     width: 100%;
@@ -232,11 +224,21 @@ border: 5px;
 background: #fff;
 height: 45px;
 -webkit-appearance: none;
+border-radius:7px;
 }
 
 .header-bottom .form-heading-holder .search-form .search-submit
 {
     width:100%;
+    background-image: url("../images/banner-button.png");
+    background-repeat:no-repeat;
+    padding:15px;
+    border:none;
+    background-color:transparent;
+    color:#fff;
+    text-transform: uppercase;
+    text-align:center;
+    
 }
 
 .header-navigation
@@ -282,6 +284,7 @@ height: 45px;
     padding-bottom: 40px;
     position: relative;
     background-image: url(../images/base-adve.png);
+    background-repeat:no-repeat;
 }
 
 .advent-acti .section-header
@@ -743,5 +746,65 @@ padding-bottom: 8px;
 
 @media screen and (min-width:920px)
 {
+    .container{
+        max-width: 1170px;
+        margin:0 auto;
+    }
 
+    .logo-text {
+        width: 35%;
+        float: left;
+        margin-top: -18px;
+    }
+
+   .logo-branding
+   {
+       float:left;
+       width:50%;
+   }
+
+  .call-us {
+    width: 50%;
+   
+    float: right;
+}
+
+
+.logo-branding .custom-logo-link {
+  
+    float: left;
+}
+
+
+.logo-branding .site-title-desc {
+    
+    margin-top: -19px;
+}
+
+.header-navigation {
+    display: block;
+}
+
+.header-bottom  .title-desc {
+    text-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    line-height: 1.65em;
+    color: #fff;
+}
+
+.search-field {
+    width: 70%; 
+}
+.header-bottom .form-heading-holder .search-form .search-submit {
+    width: 29%;
+}
+
+.item {
+
+   
+    float: left;
+    margin-right: 20px;
+
+}
+    
 }

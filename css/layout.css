@@ -1,0 +1,737 @@
+*,*::before, *::after {box-sizing: inherit;}
+
+.body
+{
+    color:#666;
+   
+font-family: 'Poppins', sans-serif;
+font-size: 16px;
+line-height: 1.750em;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+.clearfix::after
+{   display:table;
+    content:"";
+    clear:both;
+}
+
+
+/*slider css */
+
+
+
+
+
+
+
+
+
+
+.website-container
+{
+    background:#fff;
+    margin:0px auto;
+}
+
+.header{
+    width:100%;
+    display:block;
+}
+
+ .header-top
+{
+    background: #32b67a;
+    color: #fff;
+    padding: 6px 0;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 15px;
+}
+
+.social-icons
+{
+    
+        margin: 0;
+        padding: 0;
+        list-style: none;
+}
+
+
+.social-icons li {
+    float: left;
+    margin-right: 20px;
+}
+
+.lang-tool
+{
+    float:right;
+}
+
+
+.header-middle {
+    padding: 20px 0;
+    clear:both;
+}
+
+.logo-branding
+{
+    width: 100%;
+    text-align: center;
+}
+
+
+.logo-branding .custom-logo-link {
+    display: inline-block;
+    margin-right: 9px;
+    vertical-align: middle;
+}
+
+.logo-text
+{
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+}
+
+.logo-txt .site-title
+{
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 48px;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo-text .site-title a {
+    color: #111;
+    transition: linear 0.2s;
+    text-decoration: none;
+}
+
+
+ .logo-text .site-title a:hover {
+    color: #32b67a;
+}
+
+
+.logo-branding .site-title-desc {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 15px;
+    margin: 0 0 0 8px;
+    letter-spacing: 1px;
+}
+.call-us{
+    width: 100%;
+text-align: center;
+}
+
+
+
+.header-middle .call-us .phone-label {
+    display: block;
+    font-size: 14px;
+    letter-spacing: -0.05em;
+    margin: 0 0 3px;
+}
+
+.header-middle .call-us .tel-link
+{
+    font-size: 30px;
+font-weight: 500;
+letter-spacing: -0.03em;
+transition: linear 0.2s;
+}
+
+.header-middle .call-us  a{
+    color: #32b67a;
+text-decoration: none;
+}
+
+.header-bottom
+{
+    position:relative;
+}
+
+.header-bottom .form-heading-holder .form-header-text{
+  
+    text-shadow: 0 4px 2px rgba(0, 0, 0, 0.2);
+
+color: #fff;
+}
+
+.header-bottom img {
+    height: 387px;
+    max-width:100%;
+
+    vertical-align: top;
+width: 100%;
+
+}
+
+.form-heading-holder
+{
+    position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+text-align: center;
+max-width: 690px;
+-webkit-transform: translate(-50%, -50%);
+transform: translate(-50%, -50%);
+padding:0 15px;
+
+}
+
+.form-heading-holder .form-header-text
+{
+    font-size: 16px;
+        line-height: 1.5em;
+}
+
+.form-heading-holder .form-header-text h2
+{
+    font-size: 58px;
+line-height: 1.25em;
+font-weight: 500;
+font-family: 'Montserrat', sans-serif;
+margin: 0;
+}
+.title-desc p{
+    margin-bottom: 1.5em;
+    margin-top: 0;
+    color:#fff;
+}
+
+
+
+
+.header-bottom .header-bottom-form .search-form {
+    max-width: 640px;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    padding: 15px;
+    text-align: left;
+}
+
+.search-field
+{
+    width: 100%;
+margin: 0;
+padding: 0 15px;
+border: 5px;
+background: #fff;
+height: 45px;
+-webkit-appearance: none;
+}
+
+.header-bottom .form-heading-holder .search-form .search-submit
+{
+    width:100%;
+}
+
+.header-navigation
+{
+    display:block;
+    width:100%;
+}
+
+.header-navigation  ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.header-navigation ul li {
+    float: left;
+    position: relative;
+    margin-right: 50px;
+}
+
+.header-navigation ul li a {
+    display: block;
+    text-decoration: none;
+    color: #111;
+    padding: 19px 0 21px;
+    transition: linear 0.2s;
+}
+
+
+.header-navigation{
+    display:none;
+}
+
+/*End of Header Section */
+
+/*Beginning of adventure acivites section*/
+.advent-acti
+{
+    padding-bottom: 40px;
+    position: relative;
+    background-image: url(../images/base-adve.png);
+}
+
+.advent-acti .section-header
+{
+    padding-top: 40px;
+color: #fff;
+}
+
+.advent-acti .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.section-header .holder .section-title
+{
+    font-size: 23px;
+
+    
+}
+
+
+
+
+
+.img-holder {
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.card-nav
+{
+    text-align: center;
+margin-top: 50px;
+position: relative;
+}
+
+.card-nav-left
+{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    margin: 0 21px;
+}
+.card-nav-right
+{
+    position: relative;
+right: 0;
+top: 0;
+display: inline-block;
+margin: 0 21px;
+}
+
+.best-pack-main-container
+{
+    padding:40px;
+    background: #f6f6f6;
+}
+.why-book-main-container
+{
+    width:100%;
+}
+
+.why-book-left .section-header .section-title h2
+{
+    text-align:center;
+}
+
+.why-book-left
+{
+    background-image:url(../images/why-book-with-us.png);
+    background-repeat:no-repeat;
+    color:white;
+    background-size:cover;
+
+}
+.col {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.why-book-right
+{
+    margin:0px auto;
+}
+
+.text-holder
+{   margin:0px auto;
+    
+}
+
+.featured-trip
+{
+    padding:40px;
+    background:#f6f6f6;
+}
+
+.featured-trip .section-header {
+   
+    margin: 0 auto 60px;
+    text-align: center;
+}
+
+.featured-trip .grid .text-holder .meta-info {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.featured-trip .grid .text-holder .meta-info span {
+    display: block;
+    margin: 0 0 7px;
+}
+
+
+.featured-trip .grid .text-holder .btn-holder {
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    padding-bottom:10px;
+}
+
+
+.featured-trip .grid .text-holder .title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+    padding: 0 20px;
+    margin: 0 0 7px;
+}
+
+.featured-trip .grid .text-holder .btn-more {
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #32b67a;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 7px 30px;
+    font-family: Montserrat,sans-serif;
+    -webkit-transition: linear .2s;
+    -moz-transition: linear .2s;
+    transition: linear .2s;
+}
+
+.btn-holder a{
+    color: #32b67a;
+    text-decoration: none;
+}
+
+.grid .text-holder .btn-more:hover {
+    text-decoration: none;
+    background: #32b67a;
+    color: #fff;
+}
+
+.featured-trip .grid .col .holder {
+
+    height: 100%;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transition: linear .2s;
+    -moz-transition: linear .2s;
+    transition: linear .2s;
+
+}
+
+.featured-trip .grid .text-holder .title a {
+
+   text-decoration: none;
+   text-align: center;
+
+}
+
+.discount  .section-header{
+   text-align:center;
+}
+
+
+
+
+
+.discount .grid .text-holder .meta-info {
+    padding: 0 20px;
+    font-size: 14px;
+}
+
+.discount .grid .text-holder .meta-info span {
+    display: block;
+    margin: 0 0 7px;
+}
+
+
+.discount .grid .text-holder .btn-holder {
+    padding-top: 15px;
+    border-top: 1px solid #e5e5e5;
+    text-align: center;
+    padding-bottom:10px;
+}
+
+
+.discount .grid .text-holder .title {
+    font-size: 18px;
+    font-weight: 500;
+    font-family: Montserrat,sans-serif;
+    padding: 0 20px;
+    margin: 0 0 7px;
+}
+
+.discount .grid .text-holder .btn-more {
+    font-size: 8px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #32b67a;
+    border-radius: 20px;
+    text-transform: uppercase;
+    padding: 7px 30px;
+    font-family: Montserrat,sans-serif;
+    -webkit-transition: linear .2s;
+    -moz-transition: linear .2s;
+    transition: linear .2s;
+}
+
+.btn-holder a{
+    color: #32b67a;
+    text-decoration: none;
+}
+
+.grid .text-holder .btn-more:hover {
+    text-decoration: none;
+    background: #32b67a;
+    color: #fff;
+}
+
+.discount .grid .col .holder {
+
+    height: 100%;
+    border: 1px solid #dcdcdc;
+    background: #fff;
+    border-radius: 5px;
+    -webkit-transition: linear .2s;
+    -moz-transition: linear .2s;
+    transition: linear .2s;
+
+}
+
+.discount .grid .text-holder .title a {
+
+   text-decoration: none;
+   text-align: center;
+
+}
+
+.dream{
+    padding: 40px 0;
+    background-image: url("../images/dream.png");
+    background-size: cover;
+}
+
+.dream .dream-title{
+    font-size: 37px;
+    line-height: 1.241em;
+
+font-weight: 500;
+
+font-family: Montserrat,sans-serif;
+
+margin: 0 0 15px;
+text-align:center;
+
+text-align: center;
+
+color: #fff;
+
+font-size: 20px;
+
+line-height: 1.6em;
+
+}
+
+.dream-content p
+{
+    margin-bottom: 1.5em;
+
+margin-top: 0;
+text-align: center;
+
+color: #fff;
+
+text-align: center;
+
+color: #fff;
+
+font-size: 20px;
+
+line-height: 1.6em;
+}
+
+.dream  .btn-more {
+
+    border: 2px solid #32b67a;
+    background: #32b67a;
+    border-radius: 5px;
+    display: inline-block;
+    font-family: Montserrat,sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    padding: 10px 30px;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-transition: linear .2s;
+    -moz-transition: linear .2s;
+    transition: linear .2s;
+    display:block;
+}
+
+.btn-more {
+    text-decoration:none;
+    text-align:center;
+}
+
+.blog .section-header{
+    text-align:center;
+}
+
+.blog .grid .post .text-holder {
+    padding: 20px 20px 1px;
+}
+
+.blog .entry-header
+{
+    display:block;
+}
+
+.blog .grid .post .text-holder .posted-on {
+    display: block;
+    font-size: 14px;
+}
+
+.blog .grid .post .text-holder .entry-title {
+    font-size: 18px;
+    line-height: 1.444em;
+    font-weight: 500;
+    font-family: "Montserrat",sans-serif;
+    margin: 0 0 13px;
+}
+
+
+.blog .grid .post .text-holder .entry-content {
+    margin: 0 0 20px;
+    height: 85px;
+    overflow: hidden;
+}
+
+
+.blog .grid .post .entry-footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.blog .grid .post .holder {
+    border: 1px solid #dcdcdc;
+    border-radius: 5px;
+    height: 100%;
+    transition: linear 0.2s;
+}
+
+.blog .btn-holder {
+    text-align: center;
+}
+
+.blog .btn-holder .btn-more {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    border: 1px solid #32b67a;
+    border-radius: 5px;
+    text-transform: uppercase;
+    padding: 10px 29px;
+    font-family: 'Montserrat', sans-serif;
+    transition: linear 0.2s;
+    margin-top:20px;
+}
+
+.blog .btn-holder a:hover{
+    text-decoration:none;
+    background: #32b67a;
+color: #fff;
+}
+
+.site-footer {
+    background: #111;
+    color: #fff;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+
+
+.site-footer .footer-top {
+    padding: 30px 0;
+}
+
+
+.site-footer .column {
+    width: 100%;
+    padding: 0 15px;
+}
+
+
+.site-footer .footer-text {
+    margin: 0 0 40px;
+}
+
+
+.site-footer .footer-text .footer-text-title {
+    font-size: 18px;
+    line-height: 1.444em;
+    color: #fff;
+    text-transform: none;
+    font-weight: 500;
+    text-align: left;
+}
+
+.footer-nav-menu  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.site-footer .footer-nav-menu ul li {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: linear 0.2s;
+    margin: 0 0 15px;
+padding-bottom: 8px;
+}
+
+.site-footer .footer-nav-menu ul li a {
+    color: rgba(255, 255, 255, 0.75);
+    text-decoration: none;
+}

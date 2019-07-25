@@ -44,6 +44,7 @@ html{
 .container {
     max-width: 100%;
     margin: 0 15px;
+     text-align:center; 
 }
 
 .social-icons
@@ -58,6 +59,19 @@ html{
 .social-icons li {
     float: left;
     margin-right: 20px;
+}
+
+
+.header-bottom .form-heading-holder .search-form .search-submit {
+    width: 39%;
+    background-image: url("../images/banner-button.png");
+    background-repeat: no-repeat;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
 }
 
 .lang-tool
@@ -215,21 +229,23 @@ margin: 0;
     text-align: left;
 }
 
-.search-field
-{
-    width: 100%;
-margin: 0;
-padding: 0 15px;
-border: 5px;
-background: #fff;
-height: 45px;
--webkit-appearance: none;
-border-radius:7px;
+
+.search-field {
+    width: 58%;
+    margin: 0;
+    padding: 0 15px;
+    border: 5px;
+    background: #fff;
+    height: 45px;
+    -webkit-appearance: none;
+    border-radius: 7px;
 }
+
+
 
 .header-bottom .form-heading-holder .search-form .search-submit
 {
-    width:100%;
+   
     background-image: url("../images/banner-button.png");
     background-repeat:no-repeat;
     padding:15px;
@@ -285,6 +301,7 @@ border-radius:7px;
     position: relative;
     background-image: url(../images/base-adve.png);
     background-repeat:no-repeat;
+    background-size:cover;
 }
 
 .advent-acti .section-header
@@ -301,7 +318,60 @@ color: #fff;
     z-index: 1;
 }
 
-.section-header .holder .section-title
+
+
+.why-book-main-container .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.best-pack-main-container .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.featured-trip .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.dream .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.blog .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.discount .section-header .holder {
+    max-width: 660px;
+    margin: 0 auto 68px;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+
+
+
+.why-book-main-container .section-header .holder .section-title
 {
     font-size: 23px;
 
@@ -806,5 +876,55 @@ padding-bottom: 8px;
     margin-right: 20px;
 
 }
+
+.why-book-left {
+  
+    width: 35%;
+    float: left;
+}
+.why-book-right {
+   
+    width: 65%;
+    float: right;
+}
+/* .col {
+    width: 50%;
+  
+    margin: 0 auto;
+        margin-left: auto;
+    float: left;
+    margin-left: 0px;
+} */
+
+.why-book-left {
+   
+    padding: 100px;
+}
+
+
+.col {
+    width: 33%;
     
+    margin: 0 auto;
+        margin-left: auto;
+    margin-left: auto;
+    float: left;
+    margin-left: 0px;
+}
+
+.why-book-right .col{
+    width:50%;
+}
+
+
+.site-footer .column {
+    width: 25%;
+    padding: 0 15px;
+    float: left;
+}
+.site-footer .footer-text {
+    margin: 0 0 40px;
+    text-align: left;
+}    
+
 }

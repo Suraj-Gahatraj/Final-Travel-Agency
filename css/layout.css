@@ -306,9 +306,14 @@ color: #fff;
 }
 
 
+.item
+{
+    text-align:center;
+}
 
-
-
+.holder{
+    text-align:center;
+}
 .img-holder {
     position: relative;
     border-radius: 5px;
@@ -734,4 +739,9 @@ padding-bottom: 8px;
 .site-footer .footer-nav-menu ul li a {
     color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
+}
+
+@media screen and (min-width:920px)
+{
+
 }
